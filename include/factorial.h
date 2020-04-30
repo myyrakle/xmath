@@ -3,8 +3,6 @@
 
 namespace xmath
 {
-    
-
     template <class IntegerType>
     std::uint64_t factorial(IntegerType n)
     {
