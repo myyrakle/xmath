@@ -1,3 +1,5 @@
+#pragma once
+
 namespace xmath
 {
     template <class Integer>
