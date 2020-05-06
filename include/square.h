@@ -1,3 +1,6 @@
+#ifndef XMATH_SQUARE
+#define XMATH_SQUARE
+
 namespace xmath
 {
   template <class Number>
@@ -6,3 +9,5 @@ namespace xmath
     return n*n;
   }
 }
+
+#endif
