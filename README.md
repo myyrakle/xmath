@@ -3,3 +3,6 @@
 
 
 eXtensible math library
+
+
+Minimal version: C++11
