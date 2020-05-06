@@ -1,3 +1,6 @@
+#ifndef XMATH_FIBONACCI
+#define XMATH_FIBONACCI
+
 #include <vector>
 
 namespace xmath
@@ -6,3 +9,5 @@ namespace xmath
     
     std::vector<long long> fibonacci_sequence_until(int n);
 }
+
+#endif
