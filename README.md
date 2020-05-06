@@ -6,3 +6,5 @@ eXtensible math library
 
 
 Minimal version: C++11
+  
+[작성규칙](https://github.com/myyrakle/xmath/wiki/writing_rule)
