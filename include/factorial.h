@@ -1,3 +1,6 @@
+#ifndef XMATH_FACTORIAL
+#define XMATH_FACTORIAL
+
 #include <cstdint>
 #include <exception>
 
@@ -20,3 +23,5 @@ namespace xmath
       return sum;
     }
 }
+
+#endif
