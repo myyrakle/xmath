@@ -1,4 +1,6 @@
-#pragma once
+#ifndef XMATH_PRIME_NUMBER
+#define XMATH_PRIME_NUMBER
+
 #include <vector>
 #include <cmath>
 
@@ -29,3 +31,5 @@ namespace xmath
 
     std::vector<int> compute_prime_numbers_until(int n);
 }
+
+#endif
