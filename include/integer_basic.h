@@ -1,4 +1,5 @@
-#pragma once
+#ifndef XMATH_INTEGER_BASIC
+#define XMATH_INTEGER_BASIC
 
 namespace xmath
 {
@@ -14,3 +15,5 @@ namespace xmath
         return n%2==0;
     }
 }
+
+#endif
