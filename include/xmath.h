@@ -3,7 +3,8 @@
 
 #include "integer_basic.h"
 #include "factorial.h"
-#include "prime_number.h"
+#include "sequence/prime_number.h"
+#include "sequence/fibonacci.h"
 #include "power.h"
 
 #endif
