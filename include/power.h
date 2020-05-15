@@ -14,7 +14,7 @@ namespace xmath
     {
       sum*=x;
     }
-  
+
     return sum;
   }
 
