@@ -5,7 +5,10 @@ namespace xmath
 {
     class xmath_exception: public std::exception
     {
-        virtual const char* what() = 0;
+        std::string message;
+    public:
+        xmath_exception(const std::string&);
+        virtual const char* what();
     };
 
     class overflow_exception: public xmath_exception
