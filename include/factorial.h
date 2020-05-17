@@ -8,6 +8,8 @@ namespace xmath
     template <class Integer>
     Integer factorial(const Integer& n)
     {
+      Integer count = n;
+
       if(n<0)
       {  
         return -1;
@@ -17,8 +19,8 @@ namespace xmath
   
       while(n!=0)
       {
-        sum *= n;
-        n--;
+        sum *= count;
+        count-=1;
       }
   
       return sum;
