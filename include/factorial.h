@@ -17,7 +17,7 @@ namespace xmath
   
       Integer sum = 1;
   
-      while(n!=0)
+      while(count!=0)
       {
         sum *= count;
         count-=1;
