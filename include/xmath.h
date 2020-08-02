@@ -10,5 +10,6 @@
 #include "./square.h"
 #include "./log.h"
 #include "./exception.h"
+#include "./root.h"
 
 #endif

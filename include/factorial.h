@@ -5,26 +5,26 @@
 
 namespace xmath
 {
-    template <class Integer>
-    Integer factorial(const Integer& n)
-    {
-      Integer count = n;
+  template <class Integer>
+  Integer factorial(const Integer &n)
+  {
+    Integer count = n;
 
-      if(n<0)
-      {
-        return -1;
-      }
-  
-      Integer sum = 1;
-  
-      while(count!=0)
-      {
-        sum *= count;
-        count-=1;
-      }
-  
-      return sum;
+    if (n < 0)
+    {
+      return -1;
     }
-}
+
+    Integer sum = 1;
+
+    while (count != 0)
+    {
+      sum *= count;
+      count -= 1;
+    }
+
+    return sum;
+  }
+} // namespace xmath
 
 #endif
