@@ -5,9 +5,13 @@
 
 namespace xmath
 {
-    bool is_fibonacci(int n);
-    
-    std::vector<long long> fibonacci_sequence_until(int n);
-}
+    template <class Integer>
+    bool is_fibonacci(const Integer &n)
+    {
+    }
+
+    template <class Integer>
+    std::vector<Integer> fibonacci_numbers(const Integer &first, const Integer &last);
+} // namespace xmath
 
 #endif

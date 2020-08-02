@@ -21,13 +21,7 @@ namespace xmath
   template <class Float>
   Float power_float(const Float &x, const Float &y)
   {
-    if (std::is_floating_point<Float>::value)
-      return std::pow(x, y);
-
-    Float sum = x;
-    //... ToDo implement
-
-    return sum;
+    return pow(x, y);
   }
 
   template <class Number>
