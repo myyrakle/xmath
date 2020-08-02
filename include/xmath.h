@@ -11,5 +11,6 @@
 #include "./log.h"
 #include "./exception.h"
 #include "./root.h"
+#include "./absolute.h"
 
 #endif
